@@ -1,0 +1,29 @@
+# Desenvolvimento da Lógica do Agente
+
+A lógica do agente foi estruturada para integrar ferramentas, memória e raciocínio interativo:
+
+1. Inicialização:
+   - O agente é criado com acesso às ferramentas implementadas e à memória conversacional.
+
+2. Fluxo de Processamento:
+   a. Recebe input do usuário.
+   b. Consulta a memória para contexto.
+   c. Utiliza o framework ReAct para decidir a próxima ação.
+   d. Executa a ação escolhida usando a ferramenta apropriada.
+   e. Analisa o resultado e formula uma resposta.
+   f. Atualiza a memória com a nova interação.
+
+3. Tomada de Decisão:
+   - Utiliza um sistema de pontuação para avaliar opções de viagem com base em sustentabilidade.
+   - Considera preferências do usuário, impacto ambiental e benefícios para comunidades locais.
+
+4. Adaptabilidade:
+   - Capaz de ajustar recomendações com base em feedback do usuário.
+   - Pode refinar planos de viagem iterativamente.
+
+5. Gestão de Erros:
+   - Implementação de tratamento de exceções para lidar com inputs inesperados ou falhas de ferramentas.
+
+Esta lógica permite que o agente ofereça um planejamento de viagem personalizado e sustentável, adaptando-se às necessidades e preferências específicas de cada usuário.
+
+

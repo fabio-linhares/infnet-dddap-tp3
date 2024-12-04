@@ -1,0 +1,44 @@
+# Boas Práticas de Codificação
+
+O projeto segue as seguintes boas práticas de desenvolvimento:
+
+1. Estrutura Modular:
+   - Código organizado em módulos lógicos (tools, agent, ui, etc.).
+   - Cada módulo tem responsabilidades bem definidas.
+
+2. Comentários e Documentação:
+   - Docstrings em todas as funções e classes principais.
+   - Comentários explicativos para lógicas complexas.
+
+3. Nomes Descritivos:
+   - Variáveis e funções com nomes claros e auto-explicativos.
+   - Uso de snake_case para funções e variáveis, PascalCase para classes.
+
+4. Tratamento de Erros:
+   - Try/except blocks para lidar com exceções potenciais.
+   - Mensagens de erro informativas e logging adequado.
+
+5. Tipagem:
+   - Uso de type hints para melhorar a legibilidade e manutenção.
+
+6. Princípios SOLID:
+   - Classes e funções com responsabilidade única.
+   - Interfaces bem definidas para extensibilidade.
+
+7. Testes:
+   - Testes unitários para componentes críticos.
+   - Testes de integração para fluxos principais.
+
+8. Formatação Consistente:
+   - Uso de ferramentas como Black para formatação automática.
+   - Conformidade com PEP 8 para estilo de código Python.
+
+9. Gerenciamento de Dependências:
+   - Uso de requirements.txt para listar dependências.
+   - Versões específicas das bibliotecas para reprodutibilidade.
+
+10. Segurança:
+    - Não exposição de chaves ou credenciais no código.
+    - Validação de inputs do usuário.
+
+Estas práticas garantem que o código seja legível, manutenível e robusto, facilitando futuras expansões e colaborações no projeto e estes conteúdos fornecem uma visão geral abrangente do projeto, cobrindo todos os aspectos solicitados.

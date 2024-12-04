@@ -1,0 +1,38 @@
+# Documentação do Projeto
+
+O projeto está documentado no GitHub com um README detalhado:
+
+1. Descrição do Problema e Solução:
+   - Explica o desafio do planejamento de viagens sustentáveis.
+   - Detalha como o agente inteligente aborda este problema.
+
+2. Casos de Uso Testados e Resultados:
+   - Lista os cenários de teste realizados.
+   - Apresenta os resultados obtidos em cada caso.
+
+3. Instruções de Execução:
+   - Passo a passo para clonar o repositório.
+   - Guia de instalação de dependências.
+   - Comandos para executar a aplicação.
+
+4. Reflexão sobre o Uso do Agente:
+   - Compara o processo de planejamento com e sem o agente.
+   - Destaca as vantagens em termos de eficiência e qualidade.
+
+5. Estrutura do Projeto:
+   - Descreve a organização de pastas e arquivos.
+   - Explica a função de cada componente principal.
+
+6. Configuração do Ambiente:
+   - Detalha os requisitos de sistema.
+   - Instruções para configurar variáveis de ambiente.
+
+7. Contribuições:
+   - Guia para desenvolvedores que desejam contribuir.
+   - Padrões de código e processo de submissão de pull requests.
+
+8. Licença:
+   - Informações sobre a licença do projeto.
+
+
+

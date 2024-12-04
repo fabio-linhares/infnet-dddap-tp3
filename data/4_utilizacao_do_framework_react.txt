@@ -1,0 +1,22 @@
+
+# Utilização do Framework ReAct
+
+O framework ReAct (Reasoning and Acting) foi implementado para permitir que o agente alterne entre raciocínio, ação e observação:
+
+1. Implementação:
+   - Utilizamos a classe ZeroShotAgent do LangChain, que implementa o ReAct.
+   - Configuramos um prompt personalizado que inclui instruções para o processo de raciocínio.
+
+2. Processo ReAct:
+   - Raciocínio: O agente analisa a situação atual e decide a próxima ação.
+   - Ação: Executa a ação escolhida usando uma das ferramentas disponíveis.
+   - Observação: Analisa o resultado da ação e atualiza seu entendimento.
+
+3. Exemplo de fluxo:
+   - Usuário pede sugestão de destino sustentável.
+   - Agente raciocina sobre os critérios de sustentabilidade.
+   - Ação: Usa a ferramenta de busca de destinos sustentáveis.
+   - Observa os resultados e raciocina sobre a melhor sugestão.
+   - Apresenta a sugestão ao usuário.
+
+Esta implementação permite que o agente tome decisões complexas, considerando múltiplos fatores e adaptando-se às necessidades específicas de cada usuário.

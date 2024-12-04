@@ -1,0 +1,24 @@
+# Configuração do Framework LangChain
+### O ambiente de desenvolvimento foi configurado para utilizar o LangChain com um LLMs locais:
+
+| 1. Instalação do LangChain: |
+|---|
+
+
+   pip install langchain
+
+2. Configuração dos LLMs: Utilizamos quatro modelos locais através do Ollama Serve:
+
+   phi:latest (1.6 GB)
+   llama3.2:latest (2.0 GB)
+   mistral-nemo:latest (7.1 GB)
+   granite3-moe:3b (2.1 GB)
+
+3. Integração com Ollama Serve: Configuramos o Ollama Serve em um ambiente Ubuntu no WSL2 para hospedar os modelos localmente.
+
+4. Configuração do ambiente: Ajustes foram realizados no sistema Ubuntu/WSL2 para suportar a execução eficiente do Ollama Serve.
+
+5. Inicialização do LangChain: O LangChain é inicializado com o modelo escolhido pelo usuário e as ferramentas personalizadas.
+
+Esta configuração permite o uso eficiente do LangChain com os modelo de linguagem local, proporcionando flexibilidade e controle sobre o processamento de linguagem natural em nossa aplicação.
+

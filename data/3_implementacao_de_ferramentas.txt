@@ -1,0 +1,22 @@
+# Implementação de Ferramentas
+### Foram implementadas as seguintes ferramentas externas integradas ao LangChain:
+
+| 1. Busca Avançada de Destinos Sustentáveis |
+|---|
+
+
+   - Nome: find_sustainable_destinations
+   - Descrição: Encontra destinos de viagem alinhados com princípios de sustentabilidade.
+   - Função: Utiliza uma base de dados de destinos sustentáveis e critérios de busca para sugerir locais adequados.
+
+2. Calculadora de Pegada de Carbono
+   - Nome: calculate_carbon_footprint
+   - Descrição: Calcula o impacto ambiental de diferentes opções de viagem.
+   - Função: Estima as emissões de CO2 com base no meio de transporte, distância e duração da viagem.
+
+3. Otimizador de Itinerário Sustentável
+   - Nome: optimize_sustainable_itinerar
+   - Descrição: Otimiza roteiros de viagem para maximizar a sustentabilidade.
+   - Função: Reorganiza e ajusta itinerários para reduzir o impacto ambiental e aumentar o benefício para comunidades locais.
+
+Cada ferramenta foi implementada como uma classe Python, com métodos claros para execução e integração com o agente LangChain.

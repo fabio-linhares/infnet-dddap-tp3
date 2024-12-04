@@ -1,0 +1,27 @@
+# Adição de Memória Conversacional
+
+Foi implementado um sistema de memória conversacional para melhorar a coerência e contextualização das respostas do agente:
+
+1. Tipo de Memória:
+   - Utilizamos a ConversationBufferMemory do LangChain.
+
+2. Configuração:
+   - A memória é inicializada no momento da criação do agente.
+   - Configurada para armazenar o histórico completo da conversa.
+
+3. Funcionamento:
+   - Cada interação do usuário e resposta do agente são armazenadas na memória.
+   - O agente consulta a memória antes de gerar novas respostas.
+
+4. Benefícios:
+   - Permite referências a informações mencionadas anteriormente.
+   - Melhora a consistência das recomendações ao longo da conversa.
+   - Possibilita a construção gradual de um plano de viagem.
+
+5. Exemplo de Uso:
+   - Usuário menciona preferência por praias no início da conversa.
+   - Mais tarde, ao sugerir destinos, o agente lembra dessa preferência.
+
+A memória conversacional é crucial para criar uma experiência de planejamento de viagem mais natural e personalizada.
+
+

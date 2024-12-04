@@ -1,0 +1,32 @@
+# Projeto da Interface do Usuário
+
+A interface do usuário foi desenvolvida usando Streamlit, proporcionando uma experiência clara e intuitiva:
+
+1. Layout:
+   - Design de página única com abas para diferentes funcionalidades.
+   - Barra lateral para configurações e seleção de modelos.
+
+2. Componentes Principais:
+   - Campo de entrada de texto para as perguntas do usuário.
+   - Área de exibição para respostas do agente.
+   - Visualizações interativas para itinerários e cálculos de pegada de carbono.
+
+3. Funcionalidades:
+   - Chat interativo com o agente de planejamento de viagens.
+   - Seleção de preferências de viagem (sliders, checkboxes).
+   - Exibição de mapas para visualização de destinos.
+   - Gráficos comparativos de impacto ambiental.
+
+4. Responsividade:
+   - Design adaptável para diferentes tamanhos de tela.
+   - Otimizado para desktop e dispositivos móveis.
+
+5. Feedback Visual:
+   - Indicadores de carregamento durante processamento.
+   - Mensagens de erro claras e informativas.
+
+6. Acessibilidade:
+   - Alto contraste e tamanhos de fonte ajustáveis.
+   - Compatibilidade com leitores de tela.
+
+A interface foi projetada para ser intuitiva e fácil de usar, permitindo que os usuários planejem suas viagens sustentáveis de forma eficiente e agradável.

@@ -1,0 +1,24 @@
+# Definição do Problema
+
+O projeto aborda o desafio de planejar viagens sustentáveis usando agentes inteligentes.
+
+Objetivo: Criar uma plataforma que facilite o planejamento de viagens com baixo impacto ambiental e beneficie comunidades locais.
+
+Público-alvo: Viajantes conscientes do meio ambiente e interessados em turismo sustentável.
+### Funcionalidades principais:
+
+| 1. Busca de destinos sustentáveis |
+|---|
+
+
+2. Cálculo de pegada de carbono
+3. Otimização de itinerário sustentável
+4. Recomendações de experiências locais autênticas
+### Casos de uso:
+
+| 1. Planejamento de uma viagem ecológica para Costa Rica |
+|---|
+
+
+2. Otimização de um itinerário europeu para minimizar emissões de carbono
+3. Busca de acomodações sustentáveis em destinos populares

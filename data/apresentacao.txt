@@ -1,0 +1,27 @@
+<h3 style="text-align: center; color: #2E86C1;">Teste de Performance 3</h3>
+<p style="text-align: justify; font-size: 16px; line-height: 1.6;">
+Neste TP3, o objetivo é demonstrar nossa capacidade de integrar ferramentas, agentes e raciocínio interativo para resolver problemas complexos utilizando Large Language Models (LLMs). O desafio envolve criar uma aplicação funcional que combine os conceitos de ReAct Agents, memória conversacional, e ferramentas externas (tools), com criatividade e originalidade. Por conta disso, este projeto utiliza as mais modernas tecnologias de LLMs para criar uma ferramenta interativa de planejamento de viagens, alinhando inteligência artificial, raciocínio interativo e memória conversacional para otimizar a experiência de planejamento de viagens, priorizando soluções sustentáveis e personalizadas.
+</p>
+<h4 style="color: #2E86C1; font-size: 18px; margin-top: 20px;">Modelos Disponíveis</h4>
+<p style="text-align: justify; font-size: 16px; line-height: 1.6;">
+Em relação ao uso de Large Language Models (LLMs), estamos adotando uma solução local com o Ollama Serve, configurado em um ambiente Ubuntu no WSL2. A aplicação oferece ao usuário a possibilidade de escolher entre quatro LLMs disponíveis, proporcionando flexibilidade e controle sobre o modelo utilizado. Os modelos disponíveis são:
+</p>
+<ul style="font-size: 16px; line-height: 1.6;">
+    <li><span style="color: #F4D03F; font-weight: bold;">phi:latest</span> - Um modelo de tamanho médio (1.6 GB), com atualizações recentes. Este modelo é interessante por sua capacidade de balancear desempenho e recursos computacionais.</li>
+    <li><span style="color: #F4D03F; font-weight: bold;">llama3.2:latest</span> - Um modelo de 2.0 GB, baseado na arquitetura Llama. A versão 3.2 apresenta aprimoramentos significativos.</li>
+    <li><span style="color: #F4D03F; font-weight: bold;">mistral-nemo:latest</span> - Com 7.1 GB, este modelo é projetado para tarefas que demandam maior poder de processamento.</li>
+    <li><span style="color: #F4D03F; font-weight: bold;">granite3-moe:3b</span> - Com 2.1 GB, especializado em raciocínio e geração de texto.</li>
+</ul>
+<h4 style="color: #2E86C1; font-size: 18px; margin-top: 20px;">Desafios de Configuração e Uso do Ollama Serve</h4>
+<p style="text-align: justify; font-size: 16px; line-height: 1.6;">
+O uso do Ollama Serve, em vez de APIs de serviços como o ChatGPT, apresenta desafios, especialmente na configuração e integração de uma solução local. Estamos focados em garantir que o ambiente local no Ubuntu, rodando no WSL2, esteja corretamente configurado para executar o Ollama. Considerações incluem a instalação de dependências e ajustes de configuração no sistema.
+</p>
+<p style="text-align: justify; font-size: 16px; line-height: 1.6;">
+Além disso, a exigência de recursos computacionais elevados é um desafio, especialmente ao trabalhar com modelos como o mistral-nemo. A integração do Ollama Serve com a aplicação também precisa ser cuidadosamente gerenciada para garantir eficiência.
+</p>
+<p style="text-align: justify; font-size: 16px; line-height: 1.6;">
+Contudo, ao optar por essa solução, temos o benefício do controle total sobre os dados, fundamental para garantir a privacidade dos usuários e a adaptabilidade da aplicação a diferentes contextos.
+</p>
+<p style="text-align: justify; font-size: 16px; line-height: 1.6;">
+Navegue pelas configurações na barra lateral e experimente o poder do planejamento de viagens inteligente!
+</p>

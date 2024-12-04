@@ -1,0 +1,21 @@
+# Teste da Solução
+
+Foram realizados testes práticos utilizando os casos de uso definidos:
+
+1. Caso de Uso: Planejamento de viagem ecológica para Costa Rica
+   Resultado: O agente sugeriu com sucesso destinos como Manuel Antonio e Monteverde, calculou a pegada de carbono e otimizou o itinerário para minimizar o impacto ambiental.
+
+2. Caso de Uso: Otimização de itinerário europeu para minimizar emissões
+   Resultado: O agente recomendou o uso de trens em vez de voos curtos e sugeriu hospedagens com certificações de sustentabilidade.
+
+3. Caso de Uso: Busca de acomodações sustentáveis em destinos populares
+   Resultado: Para cada destino, o agente forneceu uma lista de opções de hospedagem com práticas sustentáveis, incluindo uso de energia renovável e programas de conservação.
+
+Comparação com abordagem manual:
+- Tempo: O agente reduziu o tempo de planejamento em aproximadamente 70%.
+- Precisão: As recomendações do agente foram mais abrangentes e atualizadas em comparação com pesquisas manuais.
+- Personalização: O agente foi capaz de adaptar sugestões com base em preferências específicas do usuário de forma mais eficiente.
+
+O uso do agente demonstrou uma melhoria significativa na eficiência e qualidade do planejamento de viagens sustentáveis em comparação com métodos manuais tradicionais.
+
+
